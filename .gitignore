@@ -1,0 +1,27 @@
+# ISOs
+ISOs/
+
+# VMware
+VMs/
+*.vmdk
+*.vmx
+*.vmem
+*.nvram
+*.vmsd
+*.vmsn
+*.vswp
+*.lck
+
+# Logs
+*.log
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.tmp
+*.bak
