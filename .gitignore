@@ -1,29 +1,31 @@
-# ISOs
-ISOs/
-
-# VMware
+# Virtual machines and ISO files
 VMs/
+ISOs/
+*.iso
 *.vmdk
 *.vmx
-*.vmem
 *.nvram
 *.vmsd
 *.vmsn
-*.vswp
-*.lck
+*.vmem
+*.ova
+*.ovf
+*.vdi
 
-# Logs
+# Secrets / certificates / keys
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.csr
+wg0.conf
+*.conf.secret
+.env
+.env.*
+
+# Logs / temp
 *.log
-
-# Windows
-Thumbs.db
-Desktop.ini
-
-# VS Code
-.vscode/
-
-# Temporary files
 *.tmp
-*.bak
-
-*.dtmp
+.DS_Store
+Thumbs.db
